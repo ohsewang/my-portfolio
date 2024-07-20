@@ -4,6 +4,7 @@
 const categories = document.querySelector('.categories');
 const projects = document.querySelectorAll('.project');
 const projectContainer = document.querySelector('.projects');
+
 categories.addEventListener('click', (event)=>{
   const filter = event.target.dataset.category;
   if(filter == null){
@@ -12,6 +13,7 @@ categories.addEventListener('click', (event)=>{
 
   handleActiveSelection(event.target);
   filterProjects(filter);
+
 });
 
 function handleActiveSelection(target){

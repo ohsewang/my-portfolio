@@ -37,3 +37,14 @@ navbarToggle.addEventListener('click', () => {
 navbarMenu.addEventListener('click', () => {
   navbarMenu.classList.remove('open');
 });
+
+/*
+const menuItem = document.querySelector('.header_menu');
+menuItem.addEventListener('click', (event)=>{
+  const active = document.querySelector('.active');
+  const type = event.target.dataset.type;
+  console.log(type);
+  active.classList.remove('active');
+  type.classList.add('active');
+})
+*/
