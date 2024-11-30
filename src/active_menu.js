@@ -6,4 +6,4 @@ const navItem = sectionIds.map((id) => document.querySelector(`[href="${id}"]`))
 console.log("navItem" , navItem)
 
 
-
+10.5
